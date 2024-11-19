@@ -9,6 +9,13 @@ In vi.
 
 * Getting started
 Just copy the .exrc to your home directory and start vi.
+
+#+begin_src sh
+  git clone https://github.com/aartaka/emvi
+  ln -s emvi/.exrc ~/.exrc
+#+end_src
+
+
 Here are the bindings I've added:
 - C-x s :: Save changes.
 - C-x k :: Exit.
