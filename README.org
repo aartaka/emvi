@@ -33,3 +33,7 @@ Here are the bindings I've added:
 - C-x ) :: Slurping the next symbol into the current parenthesized form.
   - C-x ] :: Same, but for square brackets.
   - C-x } :: Same, but for curly braces.
+
+* Thanks
+- Thanks to Vasily Gerasimov for the name idea.
+- Thanks to Arch Linux forums for giving me [[https://bugs.archlinux.org/task/73299.html][pointers on how to fix tag support]] in vi.
