@@ -4,10 +4,10 @@ set showmatch
 set exrc
 set number
 set shell=/usr/bin/sbcl
-map ( Wi() hi
-map [ Wi[] hi
-map { Wi{} hi
-map " Wi"" hi
+map ( whi ()i
+map [ whi []i
+map { whi {}i
+map " whi ""i
 map f :e 
 map . :tag
 map ( ?[[({ ]
