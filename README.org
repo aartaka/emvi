@@ -1,0 +1,28 @@
+#+TITLE:Emvi: trying to do Lisp in Vi (not Vim!)
+
+POSIX/BSD vi is extremely primitive—no colors, no language modes, no plugins.
+But still, using it is a nice exercise at minimalist text editing.
+That's what I, as Lisp programmer, am trying to do, preferably without going insane.
+This .exrc config file is an attempt to reproduce the functionality of fancy Lisp-friendly systems.
+Like Emacs and Paredit.
+In vi.
+
+* Getting started
+Just copy the .exrc to your home directory and start vi.
+Here are the bindings I've added:
+- C-x s :: Save changes.
+- C-x k :: Exit.
+  - C-x K :: Exit without saving changes.
+- C-x f :: Edit a new file.
+- C-x . :: Jump to a tag/source. Use =ctags=-compatible solution (likely [[https://github.com/universal-ctags/ctags][Universal Ctags]]) to generate a tags file for your Lisp codebase and use it to navigate around.
+- C-a ( :: Add empty parentheses and insert right into them.
+  - C-a [ :: Same, but for square brackets.
+  - C-a { :: Same, but for curly braces.
+  - C-a " :: Same, but for double quotes.
+- C-x ( :: Wrap the current symbol into parens (=paredit-wrap-round=).
+  - C-x [ :: =paredit-wrap-square=.
+  - C-x { :: =paredit-wrap-curly=.
+  - C-x " :: =paredit-meta-doublequote=, but without the internal quoting.
+- C-x ) :: Slurping the next symbol into the current parenthesized form.
+  - C-x ] :: Same, but for square brackets.
+  - C-x } :: Same, but for curly braces.
