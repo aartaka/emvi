@@ -8,7 +8,7 @@ Like Emacs and Paredit.
 In vi.
 
 * Getting started
-Just copy the .exrc to your home directory and start vi.
+Just copy/symlink the .exrc to your home directory and start vi.
 
 #+begin_src sh
   git clone https://github.com/aartaka/emvi
