@@ -8,8 +8,6 @@ map ( whi ()i
 map [ whi []i
 map { whi {}i
 map " whi ""i
-map f :e 
-map . :tag
 map ( ?[[({ ]
 a(/[])} ]
 i)
@@ -29,6 +27,8 @@ map } ?{
 %dll/[])} ]
 i}
 map " bi"Whi"
+map f :e 
+map . :tag
 map k :q
 
 map K :q!
