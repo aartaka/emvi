@@ -4,10 +4,14 @@ set showmatch
 set exrc
 set number
 set shell=/usr/bin/sbcl
-map ( whi ()i
-map [ whi []i
-map { whi {}i
-map " whi ""i
+map ( h/[])}" ]
+i ()i
+map [ h/[])}" ]
+i []i
+map { h/[])}" ]
+i {}i
+map " h/[])}" ]
+i ""i
 map ( ?[[({ ]
 a(/[])} ]
 i)
