@@ -1,8 +1,8 @@
 #+TITLE:Emvi: trying to do Lisp in Vi (not Vim!)
 
 POSIX/BSD vi is extremely primitive—no colors, no language modes, no plugins.
-But still, using it is a nice exercise at minimalist text editing.
-That's what I, as Lisp programmer, am trying to do, preferably without going insane.
+But still, using it is a nice exercise in minimalist text editing.
+That's what I, as a Lisp programmer, am trying to do, preferably without going insane.
 This .exrc config file is an attempt to reproduce the functionality of fancy Lisp-friendly systems.
 Like Emacs and Paredit.
 In vi.
