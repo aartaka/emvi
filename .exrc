@@ -29,6 +29,7 @@ i}
 map " bi"Whi"
 map f :e 
 map . :tag
+map b 
 map k :q
 
 map K :q!
