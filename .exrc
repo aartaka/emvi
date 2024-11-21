@@ -36,6 +36,7 @@ i"
 map f :e 
 map . :tag
 map b 
+map x %
 map k :q
 
 map K :q!
