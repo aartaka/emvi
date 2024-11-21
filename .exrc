@@ -34,7 +34,7 @@ map " ?[[({ ]
 a"/[])} ]
 i"
 map f :e 
-map . :tag
+map . :tag 
 map b 
 map x %
 map k :q
