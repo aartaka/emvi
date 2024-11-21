@@ -3,7 +3,7 @@ set showmode
 set showmatch
 set exrc
 set number
-set shell=/usr/bin/sbcl
+set shell=/usr/bin/ecl
 map ( h/[])}" ]
 i ()i
 map [ h/[])}" ]
