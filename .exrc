@@ -40,6 +40,10 @@ map f :e
 map . :tag 
 map b 
 map x %
+map p ?^(
+
+map n /^(
+
 map k :q
 
 map K :q!
