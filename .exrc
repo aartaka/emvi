@@ -40,8 +40,8 @@ map k ?^(
 
 map j /^(
 
-map z :q
+map q :q
 
-map Z :q!
+map Q :q!
 
 map s :w

@@ -19,8 +19,8 @@ Just copy/symlink the .exrc to your home directory and start vi.
 Here are the (Emacs-inspired) bindings I've added:
 - C-x s :: Save changes.
 - C-x b :: Edit the previous/alternate file.
-- C-x z :: Exit.
-  - C-x Z :: Exit without saving changes.
+- C-x q :: Exit.
+  - C-x Q :: Exit without saving changes.
 - C-x e :: Edit a new file.
 - C-x . :: Jump to a tag/source. Use =ctags=-compatible solution (likely [[https://github.com/universal-ctags/ctags][Universal Ctags]]) to generate a tags file for your Lisp codebase and use it to navigate around.
 - C-x d :: Delete s-expression.
