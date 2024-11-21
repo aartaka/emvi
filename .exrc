@@ -34,6 +34,8 @@ map " ?[[({ ]
 a"/[])} ]
 i"
 map d d%
+map w y%
+map y p
 map f :e 
 map . :tag 
 map b 
