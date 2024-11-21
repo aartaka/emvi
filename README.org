@@ -19,14 +19,14 @@ Just copy/symlink the .exrc to your home directory and start vi.
 Here are the (Emacs-inspired) bindings I've added:
 - C-x s :: Save changes.
 - C-x b :: Edit the previous/alternate file.
-- C-x k :: Exit.
-  - C-x K :: Exit without saving changes.
-- C-x f :: Edit a new file.
+- C-x z :: Exit.
+  - C-x Z :: Exit without saving changes.
+- C-x e :: Edit a new file.
 - C-x . :: Jump to a tag/source. Use =ctags=-compatible solution (likely [[https://github.com/universal-ctags/ctags][Universal Ctags]]) to generate a tags file for your Lisp codebase and use it to navigate around.
 - C-x d :: Delete s-expression.
-  - C-x w, C-x y :: Copy s-expression and paste it.
+  - C-x y, C-x p :: Copy s-expression and paste it.
 - C-x x :: Jump to matching paren/bracket/brace.
-- C-x p, C-x n :: Jump to previous/next toplevel form.
+- C-x k, C-x j :: Jump to previous/next toplevel form.
 - C-a ( :: Add empty parentheses and insert right into them.
   - C-a [ :: Same, but for square brackets.
   - C-a { :: Same, but for curly braces.

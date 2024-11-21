@@ -34,18 +34,18 @@ map " ?[[({ ]
 a"/[])} ]
 i"
 map d d%
-map w y%
-map y p
-map f :e 
+map y y%
+map p p
+map e :e 
 map . :tag 
 map b 
 map x %
-map p ?^(
+map k ?^(
 
-map n /^(
+map j /^(
 
-map k :q
+map z :q
 
-map K :q!
+map Z :q!
 
 map s :w
