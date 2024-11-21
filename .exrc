@@ -33,6 +33,7 @@ i}
 map " ?[[({ ]
 a"/[])} ]
 i"
+map d d%
 map f :e 
 map . :tag 
 map b 
