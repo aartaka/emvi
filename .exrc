@@ -41,3 +41,7 @@ map q :q
 map Q :q!
 
 map s :w
+
+map J /;;;
+
+map K ?;;;

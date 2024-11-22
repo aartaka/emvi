@@ -26,6 +26,7 @@ Here are the (Emacs-inspired) bindings I've added:
 - C-x d :: Delete s-expression.
   - C-x y, C-x p :: Copy s-expression and paste it.
 - C-x x :: Jump to matching paren/bracket/brace.
+- C-x J, C-x K :: Jump to next/previous triple-semicolon section.
 - C-a ( :: Add empty parentheses and insert right into them.
   - C-a [ :: Same, but for square brackets.
   - C-a { :: Same, but for curly braces.
