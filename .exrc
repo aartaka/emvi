@@ -36,10 +36,6 @@ map e :e
 map . :tag 
 map b 
 map x %
-map k ?^(
-
-map j /^(
-
 map q :q
 
 map Q :q!
