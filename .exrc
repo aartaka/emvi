@@ -4,6 +4,7 @@ set showmode
 set showmatch
 set exrc
 set number
+set shiftwidth=1
 set shell=/usr/bin/ecl
 map ( h/[])}" ]
 i ()i
