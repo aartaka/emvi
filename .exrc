@@ -32,6 +32,7 @@ a"a(Ea"
 map d d%
 map y y%
 map p p
+map P P
 map e :e 
 map . :tag 
 map b 
