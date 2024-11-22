@@ -1,4 +1,5 @@
 set autoindent
+set autowrite
 set showmode
 set showmatch
 set exrc
