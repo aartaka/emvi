@@ -16,8 +16,14 @@ g/(labels/s//(^^labels/g
 g/(multiple-value/s//(^^multiple-value/g
 g/(prog\(n*v*\)/s//(^^prog\1/g
 g/(tagbody/s//(^^tagbody/g
-g/(def/s//(^^def/g
+# Derived yet frequently used macros
 g/(loop/s//(^^^^^^^^^^loop/g
+g/(when/s//(^^when/g
+g/(unless/s//(^^unless/g
+# Indent idioms
+g/(def/s//(^^def/g
+g/(do/s//(^^do/g
+g/(with/s//(^^with/g
 g/\(#.(\)/s//\1^^^^/g
 g/\(['`#](\)/s//\1^^/g
 # Add "more indent" marker to opening parens etc.
@@ -91,5 +97,7 @@ g/__/s///g
 # Split lines again
 g/|||/s//\
 /g
+# Fix indented comments
+g/^[[:space:]]\{1,\};/s//;/
 ,p
 Q
